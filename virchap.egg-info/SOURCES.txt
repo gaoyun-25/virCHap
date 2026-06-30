@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/clustering.py
+src/community_detection.py
+src/phase_pipeline.py
+src/prepare.py
+src/virchap_pipeline.py
+virchap.egg-info/PKG-INFO
+virchap.egg-info/SOURCES.txt
+virchap.egg-info/dependency_links.txt
+virchap.egg-info/entry_points.txt
+virchap.egg-info/requires.txt
+virchap.egg-info/top_level.txt

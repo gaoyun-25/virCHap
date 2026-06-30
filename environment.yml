@@ -1,0 +1,17 @@
+name: virchap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - samtools
+  - gatk4
+  - minimap2
+  - lofreq
+  - networkx
+  - pip:
+      - karateclub==1.2.1
+      - "pysam>=0.15,<0.23"
+      - sortedcontainers

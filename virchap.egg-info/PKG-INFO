@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: virchap
+Version: 1.0
+Summary: Viral haplotype reconstruction using long reads
+Home-page: https://github.com/gaoyun-25/virCHap
+Author: Yun Gao
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: karateclub
+Requires-Dist: pysam
+Requires-Dist: sortedcontainers

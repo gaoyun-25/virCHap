@@ -1,0 +1,3 @@
+[console_scripts]
+virchap = src.phase_pipeline:main
+virchap_pipeline = src.virchap_pipeline:main
