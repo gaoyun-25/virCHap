@@ -97,8 +97,9 @@ optional arguments:
   --minSim [MIN_SIM]                         Minimum similarity between two cluster consensuses to merge clusters (default: 0.3).
   --minLen [MIN_LEN]                         Minimum number of reads each clusters must have (default: 0).
   --minAbundance [MIN_ABUNDANCE]             Minimum abundance parameter, filters haplotypes with abundance less than MIN_ABUNDANCE (default: 0.001).
-  --use-supplementary [USE_SUPPLEMENTARY]    Use supplementary alignments (default: ignore supplementary alignments).
-  --min_mapq [MIN_MAPQ]                      Minimum mapping quality (default: 20)
+  --use-supplementary [USE_SUPPLEMENTARY]    Use also supplementary alignments (default: false, ignore supplementary alignments).
+  --min_mapq [MIN_MAPQ]                      Minimum mapping quality (default: 20).
+  --platform [PLATFORM], -p [PLATFORM]       sequencing platform: pb or ont (default: ont).
 ```
 
 ## Output Results
