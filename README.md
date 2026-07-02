@@ -5,7 +5,7 @@ virChap is a reference-based viral haplotype reconstruction algorithm for long r
 
 ### Using Conda
 ```
-conda install virchap
+conda install -c conda-forge -c bioconda virchap
 ```
 
 ### Install from YAML
@@ -52,8 +52,9 @@ virChap provides two main entry points depending on your input data:
 ```
 python virchap_pipeline.py --reference reference.fasta --reads reads.fq --output outdir
 ```
-
+We recommend using high-quality, pre-filtered VCF inputs, as virCHap does not perform filtering.
 #### 2. Using pre‑aligned BAM, VCF and reference (phasing mode)
+
 #### Command:
 ```
 python phase_pipeline.py --bam BAM/SAM --vcf VCF --reference reference.fasta --output outdir
