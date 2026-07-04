@@ -3,7 +3,7 @@ virChap is a reference-based viral haplotype reconstruction algorithm for long r
 
 ## Installation
 
-### Using Conda
+### 
 ```
 
 ```
