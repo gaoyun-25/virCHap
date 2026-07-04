@@ -5,7 +5,7 @@ virChap is a reference-based viral haplotype reconstruction algorithm for long r
 
 ### Using Conda
 ```
-conda install -c conda-forge -c bioconda virchap
+
 ```
 
 ### Install from YAML
